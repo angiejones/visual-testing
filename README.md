@@ -2,7 +2,7 @@
 
 **Prereqs:**
 * Install Java 8 or later.
-* Create your free Applitools account, get the API key, and add it to `bookstore/resources/test.properties`
+* Create your [free Applitools account](https://applitools.com/users/register), get the API key, and add it to `bookstore/resources/test.properties`
 
 The tests are within `bookstore/src/test/java/tests/SearchTests.java`. The original functional tests are commented out. The tests are reimplemented using visual testing.
 
