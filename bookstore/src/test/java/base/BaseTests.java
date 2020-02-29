@@ -39,7 +39,12 @@ public class BaseTests {
     driver = new ChromeDriver();
     driver.get(System.getProperty("app.url"));
     page = new SearchPage(driver);
+    initialEyes();
+  }
+  
+  public static void initialEyes(){
     eyes = new Eyes();
+    eyes.setApiKey(System.getProperty("applitools.api.key"));
   }
 
   public void validateWindow(){
